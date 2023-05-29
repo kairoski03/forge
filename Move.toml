@@ -1,11 +1,11 @@
 [package]
 name = "forge"
 version = "1.0.0"
-published-at = "0x04f31a6cef91637cce44cb620d93251b1afb1473a7cdc531b2f5ddb0dde8a058"
+published-at = "0xa9054844b66c20a33ce2ff80bae9a39068dfcfda7180a8764a687cbd3db2ef49"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir="crates/sui-framework/packages/sui-framework/", rev = "testnet" }
 
 [addresses]
-forge = "0x04f31a6cef91637cce44cb620d93251b1afb1473a7cdc531b2f5ddb0dde8a058"
+forge = "0x"
 sui = "0000000000000000000000000000000000000000000000000000000000000002"

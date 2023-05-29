@@ -9,11 +9,10 @@ module forge::forge {
         strength: u64,
     }
 
-    public entry fun sword_create(strength: u64, ctx: &mut TxContext) {
+    public entry fun sword_create(ctx: &mut TxContext) {
         let sword = Sword {
             id: object::new(ctx),
-            strength: strength * 1,
-            // strength: strength * 2,
+            strength: 2,
         };
         transfer::transfer(sword, tx_context::sender(ctx));
     }
