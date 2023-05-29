@@ -1,6 +1,6 @@
 [package]
 name = "forge"
-version = "1.0.0"
+version = "2.0.0"
 published-at = "0xfe9141ced9441ae8db57c979cab8fa2ee93c7e9c2100228993023907576e35ba"
 
 [dependencies]
